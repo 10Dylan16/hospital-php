@@ -1,0 +1,93 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
+
+body {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+body {
+  font-family: Open Sans, Verdana, sans-serif;
+  font-size: 12pt;
+}
+
+h1 {
+  font-family: Open Sans Condensed, sans-serif;
+  font-weight: normal;
+  font-size: 24pt;
+  color: #666;
+}
+
+h2 {
+  font-family: Open Sans Condensed, sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  color: #069;
+  margin-bottom: 0;
+}
+
+
+
+h1 {
+    margin: 0;
+    border-bottom: 1px dotted grey;
+}
+
+h2 {
+    margin: 0;
+}
+
+h2 ~ p {
+    margin: 0;
+    position: relative;
+    top: -40px;
+    left: 50px;
+}
+
+p:last-of-type {
+    position: static;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a + a {
+    color: red;
+    font-size: 80%;
+    vertical-align: super;
+}
+
+p:last-of-type a {
+    color: blue;
+
+    display: block;     /
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+form p {
+    margin: 5px 0;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+}
+
+form input[type=submit]:only-child {
+    margin-left: 100px;     
+}
